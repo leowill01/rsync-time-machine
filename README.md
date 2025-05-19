@@ -1,4 +1,4 @@
-# PROJ_vc--rsync-time-machine
+# Rsync Time Machine
 A Time Machine-like backup utility using rsync that creates space-efficient snapshots with versioning.
 
 ## Features
