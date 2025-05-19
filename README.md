@@ -53,3 +53,10 @@ The backup directory will contain:
 - Each backup operation generates a detailed log file
 - Hidden files (starting with '.') are excluded by default
 - Files deleted from the source are moved to the archive instead of being deleted
+
+# TODO
+- add option for 2 separate backup modes: 
+	- 1] **single current mirror + deleted archive**
+		- (currently implemented) this style maintains a single snapshot of the current state of the folder as it appears when backed up. only deleted or changed files are moved to a timestamped archive folder for retrival if needed.
+	- 2] **many full-directory snapshot backups**
+		- this style more directly mirrors Apple's *Time Machine* utility there are separate timestamped snapshot folders that include the entire filetree of the source folder as it appeared when backed up.
